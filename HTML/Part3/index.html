@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        table{
+            width: 100%;
+            border-collapse:collapse ;
+            /* collage will remove dist between their border convert into single join all of them  */
+            
+        }
+        th,td{
+            text-align: left;
+            padding: 18px;
+          
+        }
+        th{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+
+        
+        <h1>Company Sales And Product Deatail</h1>
+        
+            <table border= "1">
+                <thead>
+                <tr>
+                    <!-- th for important data  -->
+                    <th>Product ID</th>
+                    <th>Product Name</th>
+                    <th>Category</th>
+                    <th>Qunatity sold</th>
+                    <th>Unit Price</th>   
+                <th>Total sales</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <tr>001</tr>
+                        <td>Widgtes</td>
+                        <td>Electronics</td>
+                        <td>150</td>
+                        <td>25.00</td>
+                        <td>3750.00</td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>Gadets B</td>
+                        <td>Electronics</td>
+                        <td>200</td>
+                        <td>40.00</td>
+                        <td>8000.00</td>
+
+                    </tr>
+                    <tr>
+                        <td>003</td>
+                        <td>Tool C</td>
+                        <td>Hardware</td>
+                        <td>75</td>
+                        <td>15.00</td>
+                        <td>1125.00</td>
+                    </tr>
+                    <tr>
+                        <td>004</td>
+                        <td>Accessories</td>
+                        <td>Accessories D</td>
+                        <td>300</td>
+                        <td>10.00</td>
+                        <td>3000.00</td>
+
+                    </tr>
+                </tbody>
+            </table>
+             
+          
+
+            <br>
+            <hr>
+            <br>
+
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <th>Column 3</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Row 1 Cell 1</td>
+                        <td>Row 1 Cell 2</td>
+                        <td>Row 1 Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2 Cell 2</td>
+                        <td>Row 2 Cell 3</td>
+                    </tr>                    
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Row 3 Cell 1</td>
+                        <!-- DONT'T MAKE extra td tag make it accordingto requirement  -->
+                    </tr>
+                </tfoot>
+
+            </table>
+<!-- when we are doing rowspan it acquire space no of row wthat we give placed at center but in case of column not  -->
+
+<br>
+            <hr>
+            <br>
+
+<h3>Table 3</h3>
+    <table border="1">
+        <thead>
+            <th>No.</th>
+            <th>Full Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>Type</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1000</td>
+                <td rowspan="4">Company Founder</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td rowspan="3">Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <!-- <td>Larry Page</td> -->
+                <td>Founder Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <!-- <td>Mark Zukarberg</td> -->
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+            </tr>
+            <tr>
+                <td>$1300</td>
+                <td colspan="2">Total Expense:</td>
+                <td>$4600</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+
+        
+      
+    
+    
+</body>
+</html>
